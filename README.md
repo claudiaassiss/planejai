@@ -96,8 +96,5 @@ src/
 ├── utils/                    # Funções utilitárias (moeda, cálculos financeiros)
 └── router.tsx                # Definição das rotas
 
-## Autora
 
-Desenvolvido por **Claudia Assis**, estudante de Análise e Desenvolvimento de Sistemas.
-
-https://github.com/claudiaassiss
+ 
