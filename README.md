@@ -76,7 +76,5 @@ src/
 ## 👩‍💻 Autora
 
 Desenvolvido por **Claudia Assis**, estudante de Análise e Desenvolvimento de Sistemas.
-
-<a href="https://github.com/claudiaassiss" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-@claudiaassiss-181717?logo=github&logoColor=white" alt="GitHub" />
-</a
+https://github.com/claudiaassiss"
+  
