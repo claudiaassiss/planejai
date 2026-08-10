@@ -76,21 +76,6 @@ cd planejai
 # Instale as dependências
 npm install
 
-## Estrutura de pastas
-
-src/
-├── components/
-│   ├── features/          # Componentes específicos de cada funcionalidade
-│   │   ├── Simulation/         # Formulário de simulação (etapas, hero, progresso)
-│   │   ├── SimulationResults/  # Cards de resultado e histórico
-│   │   └── Insights/           # Exibição do diagnóstico de IA
-│   ├── layout/             # Layout raiz e cabeçalho
-│   └── shared/              # Componentes reutilizáveis (Button, Input, Divider...)
-├── context/theme/          # Contexto de tema claro/escuro
-├── data/                    # Etapas do formulário e construção dos prompts de IA
-├── hooks/                   # Hooks customizados (simulação, insight, conversa, tema)
-├── pages/                   # Páginas da aplicação
-├── services/                # Integração com a API do Gemini
 ├── utils/                    # Funções utilitárias (moeda, cálculos financeiros)
 └── router.tsx                # Definição das rotas
 
