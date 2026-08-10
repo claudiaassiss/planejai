@@ -80,9 +80,11 @@ export function AIInsightsCard({ simulationId }: AIInsightCardProps) {
             {messages.map((message) => (
               <div
                 key={message.id}
-                className={`${message.role === 'user' ? 'bg-primary text-white self-end'
-                  : 'bg-gray-200 text-gray-800 self-start'
-                  } rounded-lg p-3 max-w-[80%]`}
+                className={`whitespace-pre-line rounded-lg p-3 max-w-[80%] text-sm leading-relaxed ${
+                  message.role === 'user'
+                    ? 'bg-primary text-primary-foreground self-end'
+                    : 'bg-secondary-button text-foreground self-start'
+                }`}
               >
                 {message.content}
               </div>
