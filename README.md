@@ -1,15 +1,39 @@
 # 💰 Planej.ai
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
-O **Planej.ai** é uma aplicação web que ajuda o usuário a entender sua situação financeira e traçar um caminho realista até um objetivo (uma viagem, uma reserva de emergência, um curso, etc). A partir de dados simples renda, gastos fixos, dívidas e a meta desejada, o app calcula a viabilidade do plano e usa a API do Gemini para gerar um diagnóstico personalizado, com sugestões práticas e um chat de acompanhamento para tirar dúvidas sobre o resultado.
+Sobre o projeto
 
-## 🎬 Demonstração
+O Planej.ai é uma aplicação web desenvolvida para auxiliar no planejamento financeiro pessoal por meio de simulações financeiras e recursos de Inteligência Artificial Generativa.
 
-![Renda](image.png)   ![Custos fixos](image-1.png)  ![Dívidas](image-2.png)  ![Meta](image-3.png) ![Valor da meta](image-4.png) ![Prazo](image-5.png)
+A aplicação permite que o usuário informe dados como renda, custos fixos, dívidas, objetivo financeiro e prazo, utilizando essas informações para calcular a viabilidade da meta.
+
+A partir dos dados da simulação, a aplicação utiliza a API do Google Gemini para gerar um diagnóstico personalizado, apresentando sugestões práticas relacionadas à organização financeira, economia, geração de renda e planejamento.
+
+Além do diagnóstico, o Planej.ai também possui um chat de acompanhamento com IA, permitindo que o usuário tire dúvidas e converse sobre os resultados obtidos na simulação.
+
+O projeto foi desenvolvido como parte de um desafio de programação aplicada, dividido em etapas de desenvolvimento, incluindo a implementação do histórico de simulações e posteriormente a funcionalidade de interação com IA.
+
+## Objetivo
+
+O principal objetivo do Planej.ai é tornar o planejamento financeiro mais simples, acessível e personalizado.
+
+A proposta é utilizar tecnologia para transformar números e informações financeiras em recomendações que possam ser compreendidas e utilizadas pelo usuário no seu planejamento.
+
+O projeto busca:
+  - Facilitar a análise da situação financeira;
+  - Avaliar a viabilidade de metas;
+  - Utilizar IA para gerar recomendações personalizadas;
+  - Apresentar sugestões práticas;
+  - Permitir acompanhamento através de um chat com IA;
+  - Facilitar a consulta de simulações anteriores.
+
+## Demonstração
+
+![Renda](image.png) ![Custos fixos](image-1.png)  ![Dívidas](image-2.png)  ![Meta](image-3.png) ![Valor da meta](image-4.png) ![Prazo](image-5.png)
 ![Simulação](image-6.png)  ![Chat](image-7.png)  ![Histórico](image-8.png)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - [x] Simulação guiada por formulário em etapas (renda, custos fixos, dívidas, meta e prazo)
 - [x] Máscara automática de valores em reais
@@ -20,7 +44,7 @@ O **Planej.ai** é uma aplicação web que ajuda o usuário a entender sua situa
 - [x] Histórico de simulações, com consulta e exclusão
 - [x] Tema claro/escuro com persistência de preferência
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -34,7 +58,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - **[Google Gemini API](https://ai.google.dev/)** — geração do diagnóstico financeiro e das respostas do chat
 - **[Oxlint](https://oxc.rs/)** — lint
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina:
 
@@ -43,9 +67,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 - Um gerenciador de pacotes ([npm](https://www.npmjs.com/), já incluso no Node.js)
 - Uma chave de API do [Google AI Studio](https://aistudio.google.com/) (Gemini)
 
-## 📦 Instalação
+## Instalação
 
-```bash
 # Clone este repositório
 git clone https://github.com/claudiaassiss/planejai.git
 
@@ -55,7 +78,7 @@ cd planejai
 # Instale as dependências
 npm install
 
-## 📁 Estrutura de pastas
+## Estrutura de pastas
 
 src/
 ├── components/
@@ -73,10 +96,8 @@ src/
 ├── utils/                    # Funções utilitárias (moeda, cálculos financeiros)
 └── router.tsx                # Definição das rotas
 
-## 👩‍💻 Autora
+## Autora
 
 Desenvolvido por **Claudia Assis**, estudante de Análise e Desenvolvimento de Sistemas.
 
-<a href="https://github.com/claudiaassiss" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-@claudiaassiss-181717?logo=github&logoColor=white" alt="GitHub" />
-</a
+https://github.com/claudiaassiss
