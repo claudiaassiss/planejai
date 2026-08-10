@@ -2,8 +2,6 @@
 
 ## Sobre o projeto
 
-Sobre o projeto
-
 O Planej.ai é uma aplicação web desenvolvida para auxiliar no planejamento financeiro pessoal por meio de simulações financeiras e recursos de Inteligência Artificial Generativa.
 
 A aplicação permite que o usuário informe dados como renda, custos fixos, dívidas, objetivo financeiro e prazo, utilizando essas informações para calcular a viabilidade da meta.
