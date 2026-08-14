@@ -73,11 +73,6 @@ git clone https://github.com/claudiaassiss/planejai.git
 # Acesse a pasta do projeto
 cd planejai
 
-# Instale as dependências
-npm install
-
-├── utils/                    # Funções utilitárias (moeda, cálculos financeiros)
-└── router.tsx                # Definição das rotas
 
 
  
