@@ -42,15 +42,15 @@ O projeto busca:
 
 | Renda | Custos fixos | Dívidas |
 |---|---|---|
-| ![Renda](docs/images/image.png) | ![Custos fixos](docs/images/image-1.png) | ![Dívidas](docs/images/image-2.png) |
+| ![Renda](docs/images/image0.png) | ![Custos fixos](docs/images/image1.png) | ![Dívidas](docs/images/image2.png) |
 
 | Meta | Valor da meta | Prazo |
 |---|---|---|
-| ![Meta](docs/images/image-3.png) | ![Valor da meta](docs/images/image-4.png) | ![Prazo](docs/images/image-5.png) |
+| ![Meta](docs/images/image3.png) | ![Valor da meta](docs/images/image4.png) | ![Prazo](docs/images/image5.png) |
 
 | Simulação | Chat | Histórico |
 |---|---|---|
-| ![Simulação](docs/images/image-6.png) | ![Chat](docs/images/image-7.png) | ![Histórico](docs/images/image-8.png) |
+| ![Simulação](docs/images/image6.png) | ![Chat](docs/images/image7.png) | ![Histórico](docs/images/image8.png) |
 
 ## Tecnologias utilizadas
 
