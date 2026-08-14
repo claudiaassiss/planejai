@@ -19,17 +19,13 @@ O principal objetivo do Planej.ai é tornar o planejamento financeiro mais simpl
 A proposta é utilizar tecnologia para transformar números e informações financeiras em recomendações que possam ser compreendidas e utilizadas pelo usuário no seu planejamento.
 
 O projeto busca:
-  - Facilitar a análise da situação financeira;
-  - Avaliar a viabilidade de metas;
-  - Utilizar IA para gerar recomendações personalizadas;
-  - Apresentar sugestões práticas;
-  - Permitir acompanhamento através de um chat com IA;
-  - Facilitar a consulta de simulações anteriores.
 
-## Demonstração
-
-![Renda](image.png) ![Custos fixos](image-1.png)  ![Dívidas](image-2.png)  ![Meta](image-3.png) ![Valor da meta](image-4.png) ![Prazo](image-5.png)
-![Simulação](image-6.png)  ![Chat](image-7.png)  ![Histórico](image-8.png)
+- Facilitar a análise da situação financeira;
+- Avaliar a viabilidade de metas;
+- Utilizar IA para gerar recomendações personalizadas;
+- Apresentar sugestões práticas;
+- Permitir acompanhamento através de um chat com IA;
+- Facilitar a consulta de simulações anteriores.
 
 ## Funcionalidades
 
@@ -41,6 +37,20 @@ O projeto busca:
 - [x] Chat de acompanhamento com contexto da simulação
 - [x] Histórico de simulações, com consulta e exclusão
 - [x] Tema claro/escuro com persistência de preferência
+
+## Demonstração
+
+| Renda | Custos fixos | Dívidas |
+|---|---|---|
+| ![Renda](docs/images/image.png) | ![Custos fixos](docs/images/image-1.png) | ![Dívidas](docs/images/image-2.png) |
+
+| Meta | Valor da meta | Prazo |
+|---|---|---|
+| ![Meta](docs/images/image-3.png) | ![Valor da meta](docs/images/image-4.png) | ![Prazo](docs/images/image-5.png) |
+
+| Simulação | Chat | Histórico |
+|---|---|---|
+| ![Simulação](docs/images/image-6.png) | ![Chat](docs/images/image-7.png) | ![Histórico](docs/images/image-8.png) |
 
 ## Tecnologias utilizadas
 
@@ -67,12 +77,45 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 ## Instalação
 
-# Clone este repositório
+**1. Clone este repositório**
+
+\`\`\`bash
 git clone https://github.com/claudiaassiss/planejai.git
+\`\`\`
 
-# Acesse a pasta do projeto
+**2. Acesse a pasta do projeto**
+
+\`\`\`bash
 cd planejai
+\`\`\`
 
+**3. Instale as dependências**
 
+\`\`\`bash
+npm install
+\`\`\`
 
- 
+**4. Configure a variável de ambiente**
+
+Crie um arquivo `.env` na raiz do projeto com sua chave da API do Gemini:
+
+\`\`\`bash
+VITE_GEMINI_API_KEY=sua_chave_aqui
+\`\`\`
+
+> ⚠️ Confira no código-fonte (procure por `import.meta.env`) qual é o nome exato dessa variável no seu projeto, e ajuste aqui caso seja diferente.
+
+**5. Rode o projeto em modo de desenvolvimento**
+
+\`\`\`bash
+npm run dev
+\`\`\`
+
+A aplicação estará disponível em `http://localhost:5173` (ou na porta indicada no terminal).
+
+## Autora
+
+Feito por **Claudia Assis** 💜
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claudia-almeida-53a46831b/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/claudiaassiss)
