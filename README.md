@@ -103,8 +103,6 @@ Crie um arquivo `.env` na raiz do projeto com sua chave da API do Gemini:
 VITE_GEMINI_API_KEY=sua_chave_aqui
 \`\`\`
 
-> ⚠️ Confira no código-fonte (procure por `import.meta.env`) qual é o nome exato dessa variável no seu projeto, e ajuste aqui caso seja diferente.
-
 **5. Rode o projeto em modo de desenvolvimento**
 
 \`\`\`bash
